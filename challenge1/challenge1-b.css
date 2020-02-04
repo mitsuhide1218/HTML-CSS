@@ -49,6 +49,10 @@ main {
 	background-position: bottom;
 }
 
+.img-title {
+	margin: 15px 0 5px;
+}
+
 .step {
   position: absolute;
   top: 0;
@@ -57,3 +61,39 @@ main {
   color: white;
   padding: 3px;
 }
+
+@media screen and (max-width: 768px) {
+	main {
+		width: 100%;}
+
+	.step-box {
+		float: none;
+		width: 90%;
+		margin-bottom: 20px;}
+
+	.step1-img {
+	padding-top: 66.6666666667%;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;}
+
+	.step2-img {
+		padding-top: 66.6666666667%;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;}
+
+	.step3-img {
+		padding-top: 66.6666666667%;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;}
+
+	.img-title {
+		margin: 10px 0 5px;}
+
+	.img-txt{
+		height: 90%;}
+
+
+		}
